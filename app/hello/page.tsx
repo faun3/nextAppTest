@@ -1,4 +1,9 @@
-export default async function Page() {
-  await new Promise((resolve) => setTimeout(resolve, 1000));
-  return <div>Hello, NextJS 13</div>;
+import Navbar from "./Navbar";
+
+export default function Page() {
+  return (
+    <>
+      <div>ok</div>
+    </>
+  );
 }
