@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav>this component is destined to be a nav</nav>
+        {children}
+      </body>
     </html>
   );
 }
